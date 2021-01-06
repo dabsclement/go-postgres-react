@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Session from "./components/Session";
+import Dashboard from "./components/dashboard";
 import "./App.css"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/session" component={Session} />
+          <Route path="/dashboard" component={Dashboard} />
       </Router>
   );
 }
